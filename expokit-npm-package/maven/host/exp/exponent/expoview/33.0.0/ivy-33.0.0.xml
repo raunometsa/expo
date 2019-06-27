@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-  <info organisation="host.exp.exponent" module="expoview" revision="33.0.0" status="integration" publication="20190617151652"/>
+  <info organisation="host.exp.exponent" module="expoview" revision="33.0.0" status="integration" publication="20190627133738"/>
   <configurations>
     <conf name="_internal_aapt2_binary" visibility="private" transitive="false"/>
     <conf name="androidApis" visibility="public"/>
@@ -175,7 +175,7 @@
   </publications>
   <dependencies>
     <dependency org="com.android.tools.build" name="aapt2" rev="3.3.2-5309881" conf="_internal_aapt2_binary-&gt;default">
-      <artifact name="aapt2" type="jar" ext="jar" m:classifier="osx" conf="_internal_aapt2_binary"/>
+      <artifact name="aapt2" type="jar" ext="jar" m:classifier="linux" conf="_internal_aapt2_binary"/>
     </dependency>
     <dependency org="com.raizlabs.android" name="DBFlow-Compiler" rev="2.2.1" conf="annotationProcessor-&gt;default"/>
     <dependency org="com.jakewharton" name="butterknife-compiler" rev="9.0.0" conf="annotationProcessor-&gt;default"/>
